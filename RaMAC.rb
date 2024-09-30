@@ -24,7 +24,7 @@ def generate_card_number(prefix, length)
   check_digit = (0..9).find { |d| luhn_algorithm(card_number + d.to_s) }
   card_number + check_digit.to_s
 end
-
+#I made dis btch wit AI ngl
 def generate_cvv(network)
   case network
   when :amex
@@ -68,7 +68,6 @@ def generate_fake_card(network = :visa)
     "-" * 30
 end
 
-# Generate and display fake cards for each network
 puts generate_fake_card(:visa)
 puts generate_fake_card(:mastercard)
 puts generate_fake_card(:amex)
