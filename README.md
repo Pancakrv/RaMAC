@@ -2,7 +2,7 @@ Please, for the sake of all that is holy, use this for good intentions, such bei
 
 It's used in such:
 
-git clone https://github.com/Pancakrv/RaMAC
+git clone https://github.com/Pancakrv/RaMAC (or download the zip and unzip it)
 
 cd RaMAC
 
